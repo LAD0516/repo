@@ -1,0 +1,21 @@
+Origin: LAD0516
+Label: LAD0516 源
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: 个人越狱插件源
+Date: Mon, 02 Nov 2026 09:35:03 UTC
+MD5Sum:
+ 4d9d72a48f6df1c2f78697952dd15d53             1699 Packages
+ aec61d673a6f983ebad6ad3fe1f80a7f              800 Packages.gz
+ 4bd55a4a3adc6210d4d4a196824c6f30              934 Packages.bz2
+SHA1:
+ 52412c10a3aa556adf6b4bbb1361a2d387f9ad6c             1699 Packages
+ 8f9170755d4c621311bfb3e8cac9b3c5ce27934c              800 Packages.gz
+ 52c0bfff9f0ec245593f0d99237ab932eb87372b              934 Packages.bz2
+SHA256:
+ 00c5109afc6476a8c17be78117ec220800e278ee8aead0253c1241981f93891a             1699 Packages
+ a5809b311618be350a60305e8873b4fd3afa337824a03de482d89758bd14152d              800 Packages.gz
+ 0d1b940ef2058ec39e2e1491948610134ac08de423975ba2cd9a94cd4c774ebc              934 Packages.bz2
