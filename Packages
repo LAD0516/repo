@@ -6,13 +6,13 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
-Version: 1.0-28
-Installed-Size: 492
-Filename: debs/com.gna1j.remindercapsule_1.0-28_iphoneos-arm64.deb
-Size: 144914
-MD5sum: 5fc893bdd19db6f9ececbcaafd2ff804
-SHA1: 7a1acab253f85154a488701b3745ab3d6a227aa7
-SHA256: fccd08225c4eb9e3ab14bf4b16b64a2e1942f25ba3bab38ade739db88b7bbafb
+Version: 1.0-29
+Installed-Size: 496
+Filename: debs/com.gna1j.remindercapsule_1.0-29_iphoneos-arm64.deb
+Size: 149930
+MD5sum: dd8a4b0ecff965e820d9dae7eecf93f2
+SHA1: 663ab7ebae38898f1906b41aedfe824f4fc607af
+SHA256: 73f22db4a78b79591e83f90f8d27257e735bb892ac27e076c72a18652c73e0f3
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule
@@ -22,10 +22,10 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
-Version: 1.0-28
-Installed-Size: 492
-Filename: debs/com.gna1j.remindercapsule_1.0-28_iphoneos-arm64e.deb
-Size: 145526
-MD5sum: 6ebf43269138ba09aeb9749e83c1f8bd
-SHA1: 423ff85b480339528b983a389b4749fd762443d9
-SHA256: 035c07fb37bf0d131dc4128eeb75eb6f99744bd9bb3882274271037a7f1ee2f3
+Version: 1.0-29
+Installed-Size: 496
+Filename: debs/com.gna1j.remindercapsule_1.0-29_iphoneos-arm64e.deb
+Size: 150540
+MD5sum: 673d7a0d8ca7f62589d48f64906297df
+SHA1: 6b2b34a938cb1a0f982f3caa122be70d0687ac8e
+SHA256: 8aaef062b1c558733c834ebaf782bc64782ba043b9337b1b2f1d5d8a66d6b8e9
