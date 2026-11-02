@@ -1,11 +1,12 @@
 Origin: LAD0516
-Label: LAD0516 源
+Label: GnA1J源
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 个人越狱插件源
+Icon: https://LAD0516.github.io/repo/avatar.png
 Date: Mon, 02 Nov 2026 09:35:03 UTC
 MD5Sum:
  021087341f16ea5597e885d02d612fb1             1557 Packages
