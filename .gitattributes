@@ -1,2 +1,4 @@
 # deb 是二进制，禁止 git 做换行符转换 / 文本 diff
 *.deb binary
+# 图标二进制，同样禁止换行符转换
+*.png binary

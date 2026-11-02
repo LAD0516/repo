@@ -1,28 +1,158 @@
 <!DOCTYPE html>
-<html lang="zh-CN"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>LAD0516 源</title>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>GnA1J源</title>
 <style>
- body{margin:0;padding:32px 20px;background:#0b0b0d;color:#f2f2f5;
-      font:16px/1.6 -apple-system,"PingFang SC",system-ui,sans-serif}
- h1{font-size:22px;margin:0 0 4px}
- p.sub{color:#9a9aa2;margin:0 0 24px;font-size:14px}
- a.btn{display:inline-block;padding:12px 20px;border-radius:12px;background:#0a84ff;
-       color:#fff;text-decoration:none;font-weight:600}
- ul{list-style:none;padding:0;margin:28px 0 0;border-top:1px solid #232329}
- li{padding:14px 2px;border-bottom:1px solid #232329;font-size:15px}
- li span{color:#9a9aa2;margin-left:6px}
- li em{color:#5ac8fa;font-style:normal;margin-left:8px;font-size:13px}
- li a{color:#0a84ff;text-decoration:none;float:right;font-size:14px}
- code{background:#17171b;padding:2px 6px;border-radius:6px;font-size:13px}
-</style></head>
+  :root{
+    --bg1:#0a0a0f; --bg2:#15151f; --card:rgba(255,255,255,.045);
+    --line:rgba(255,255,255,.09); --txt:#f2f2f7; --mut:#9a9aa6;
+    --sileo:#0a84ff; --zebra:#ff9f0a; --saily:#1ec8b0; --ok:#30d158;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;min-height:100vh;padding:28px 18px;color:var(--txt);
+    font:15px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background:
+      radial-gradient(1100px 600px at 50% -10%,rgba(80,120,255,.18),transparent 60%),
+      radial-gradient(800px 500px at 100% 110%,rgba(191,90,242,.16),transparent 55%),
+      linear-gradient(160deg,var(--bg1),var(--bg2));
+    display:flex;justify-content:center;align-items:flex-start}
+  .card{width:100%;max-width:460px;background:var(--card);border:1px solid var(--line);
+    border-radius:26px;padding:30px 24px 26px;backdrop-filter:blur(14px);
+    box-shadow:0 24px 60px rgba(0,0,0,.45)}
+  .hero{display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px}
+  .avatar-wrap{padding:3px;border-radius:50%;
+    background:conic-gradient(from 200deg,var(--sileo),var(--saily),var(--zebra),var(--sileo));
+    box-shadow:0 8px 26px rgba(10,132,255,.28)}
+  .avatar{width:92px;height:92px;border-radius:50%;display:block;object-fit:cover;
+    border:3px solid var(--bg1);background:#222}
+  h1{margin:2px 0 0;font-size:23px;font-weight:750;letter-spacing:.3px}
+  .sub{margin:0;color:var(--mut);font-size:13.5px;max-width:340px}
+  .row{display:flex;gap:10px;margin:22px 0 0}
+  .btn{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:5px;padding:13px 6px;border-radius:16px;border:1px solid var(--line);
+    background:rgba(255,255,255,.04);color:var(--txt);font-size:13px;font-weight:650;
+    cursor:pointer;transition:.18s transform,.18s background;text-decoration:none}
+  .btn:active{transform:scale(.96)}
+  .ico{width:42px;height:42px;display:flex;align-items:center;justify-content:center;margin-bottom:3px}
+  .ico img{width:100%;height:100%;object-fit:contain;display:block;
+    filter:drop-shadow(0 4px 10px rgba(0,0,0,.35))}
+  .btn.sileo{border-color:rgba(10,132,255,.5);background:rgba(10,132,255,.12)}
+  .btn.zebra{border-color:rgba(255,159,10,.5);background:rgba(255,159,10,.12)}
+  .btn.saily{border-color:rgba(30,200,176,.5);background:rgba(30,200,176,.12)}
+  .copy{display:flex;align-items:center;gap:10px;margin-top:16px;padding:10px 12px;
+    border:1px dashed var(--line);border-radius:14px;background:rgba(0,0,0,.25)}
+  .copy .url{flex:1;min-width:0;font:12.5px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;
+    color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .copy button{flex:0 0 auto;border:0;border-radius:11px;padding:9px 14px;font-weight:700;font-size:13px;
+    color:#fff;background:linear-gradient(135deg,var(--sileo),var(--saily));cursor:pointer}
+  .copy button:active{transform:scale(.96)}
+  .pk{margin-top:24px;border-top:1px solid var(--line);padding-top:16px}
+  .pk h2{margin:0 0 12px;font-size:13px;color:var(--mut);font-weight:600;letter-spacing:.4px}
+  .item{display:flex;align-items:center;gap:10px;padding:11px 2px;border-bottom:1px solid rgba(255,255,255,.05)}
+  .item:last-child{border-bottom:0}
+  .item .name{flex:1;min-width:0;font-weight:600;font-size:14px;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .badge{font-size:11px;font-weight:700;padding:3px 8px;border-radius:8px;
+    background:rgba(255,255,255,.08);color:var(--mut);white-space:nowrap}
+  .badge.v{background:rgba(48,209,88,.16);color:var(--ok)}
+  .item a{color:var(--sileo);text-decoration:none;font-size:12.5px;font-weight:600;white-space:nowrap}
+  .foot{margin-top:20px;text-align:center;color:var(--mut);font-size:11.5px;line-height:1.7}
+  #toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%) translateY(20px);
+    background:rgba(20,20,28,.96);border:1px solid var(--line);color:var(--txt);
+    padding:11px 18px;border-radius:14px;font-size:13.5px;font-weight:600;
+    opacity:0;pointer-events:none;transition:.25s;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+  #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
 <body>
-  <h1>LAD0516 源</h1>
-  <p class="sub">个人越狱插件源</p>
-  <a class="btn" href="sileo://source/https://LAD0516.github.io/repo/">添加到 Sileo</a>
-  <p class="sub" style="margin-top:20px">手动添加源：<code>https://LAD0516.github.io/repo/</code></p>
-  <ul>
-      <li><b>com.gna1j.remindercapsule</b> <span>1.0-28</span> <em>iphoneos-arm64</em> <a href="https://LAD0516.github.io/repo/debs/com.gna1j.remindercapsule_1.0-28_iphoneos-arm64.deb">下载</a></li>
-      <li><b>com.gna1j.remindercapsule</b> <span>1.0-28</span> <em>iphoneos-arm64e</em> <a href="https://LAD0516.github.io/repo/debs/com.gna1j.remindercapsule_1.0-28_iphoneos-arm64e.deb">下载</a></li>
-  </ul>
-</body></html>
+  <main class="card">
+    <div class="hero">
+      <div class="avatar-wrap"><img class="avatar" src="avatar.png" alt="GnA1J"></div>
+      <h1>GnA1J源</h1>
+      <p class="sub">个人越狱插件源 · 支持 Sileo / Zebra / Saily 一键添加</p>
+    </div>
+
+    <div class="row">
+      <a class="btn sileo" onclick="addSource('sileo','Sileo')">
+        <span class="ico"><img src="icon-sileo.png" alt="Sileo"></span>
+        Sileo
+      </a>
+      <a class="btn zebra" onclick="addSource('zebra','Zebra')">
+        <span class="ico"><img src="icon-zebra.svg" alt="Zebra"></span>
+        Zebra
+      </a>
+      <a class="btn saily" onclick="addSource('saily','Saily')">
+        <span class="ico"><img src="icon-saily.png" alt="Saily"></span>
+        Saily
+      </a>
+    </div>
+
+    <div class="copy">
+      <span class="url" id="url">https://LAD0516.github.io/repo/</span>
+      <button onclick="copyUrl()">复制源地址</button>
+    </div>
+
+    <div class="pk">
+      <h2>可用插件</h2>
+      <div class="item">
+        <span class="name">com.gna1j.remindercapsule</span>
+        <span class="badge v">1.0-28</span>
+        <span class="badge">arm64</span>
+        <a href="debs/com.gna1j.remindercapsule_1.0-28_iphoneos-arm64.deb">下载</a>
+      </div>
+      <div class="item">
+        <span class="name">com.gna1j.remindercapsule</span>
+        <span class="badge v">1.0-28</span>
+        <span class="badge">arm64e</span>
+        <a href="debs/com.gna1j.remindercapsule_1.0-28_iphoneos-arm64e.deb">下载</a>
+      </div>
+    </div>
+
+    <p class="foot">源地址末尾的斜杠不能少 · 用手机浏览器打开本页点对应按钮即可添加</p>
+  </main>
+
+  <div id="toast"></div>
+
+  <script>
+    const REPO = "https://LAD0516.github.io/repo/";
+    const SCHEMES = {
+      sileo: "sileo://source/" + REPO,
+      zebra: "zbra://sources/add/" + REPO,
+      saily: "saily://source/" + REPO
+    };
+
+    function toast(msg){
+      const t = document.getElementById("toast");
+      t.textContent = msg; t.classList.add("show");
+      clearTimeout(t._t); t._t = setTimeout(()=>t.classList.remove("show"), 1800);
+    }
+    function copyText(text){
+      if (navigator.clipboard && window.isSecureContext){
+        return navigator.clipboard.writeText(text);
+      }
+      return new Promise((res, rej)=>{
+        const ta = document.createElement("textarea");
+        ta.value = text; ta.style.position="fixed"; ta.style.opacity="0";
+        document.body.appendChild(ta); ta.select();
+        try { document.execCommand("copy"); res(); }
+        catch(e){ rej(e); }
+        document.body.removeChild(ta);
+      });
+    }
+    function copyUrl(){ copyText(REPO).then(()=>toast("已复制源地址 ✓")); }
+
+    function addSource(mgr, label){
+      // 无论能否拉起 App，都先把源地址复制好（满足“自动复制源地址”）
+      copyText(REPO).then(()=>{
+        toast("已复制源地址，正在打开 " + label + " …");
+        // 尝试拉起对应包管理器的深链
+        window.location.href = SCHEMES[mgr];
+      }).catch(()=>{
+        toast("复制失败，请长按上方地址手动复制");
+      });
+    }
+  </script>
+</body>
+</html>
