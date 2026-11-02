@@ -1,0 +1,35 @@
+Package: com.gna1j.remindercapsule
+Name: ReminderCapsule
+Description: 在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / Dopamine 越狱）。
+Maintainer: GnA1J
+Author: GnA1J
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: ch.xxtou.remindercapsule
+Replaces: ch.xxtou.remindercapsule
+Architecture: iphoneos-arm64
+Version: 1.0-28
+Installed-Size: 492
+Filename: debs/com.gna1j.remindercapsule_1.0-28_iphoneos-arm64.deb
+Size: 144914
+MD5sum: 5fc893bdd19db6f9ececbcaafd2ff804
+SHA1: 7a1acab253f85154a488701b3745ab3d6a227aa7
+SHA256: fccd08225c4eb9e3ab14bf4b16b64a2e1942f25ba3bab38ade739db88b7bbafb
+
+Package: com.gna1j.remindercapsule
+Name: ReminderCapsule
+Description: 在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / Dopamine 越狱）。
+Maintainer: GnA1J
+Author: GnA1J
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: ch.xxtou.remindercapsule
+Replaces: ch.xxtou.remindercapsule
+Architecture: iphoneos-arm64e
+Version: 1.0-28
+Installed-Size: 492
+Filename: debs/com.gna1j.remindercapsule_1.0-28_iphoneos-arm64e.deb
+Size: 145526
+MD5sum: 6ebf43269138ba09aeb9749e83c1f8bd
+SHA1: 423ff85b480339528b983a389b4749fd762443d9
+SHA256: 035c07fb37bf0d131dc4128eeb75eb6f99744bd9bb3882274271037a7f1ee2f3

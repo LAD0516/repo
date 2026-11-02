@@ -1,0 +1,2 @@
+# deb 是二进制，禁止 git 做换行符转换 / 文本 diff
+*.deb binary
