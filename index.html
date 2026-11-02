@@ -35,7 +35,7 @@
     background:rgba(255,255,255,.04);color:var(--txt);font-size:13px;font-weight:650;
     cursor:pointer;transition:.18s transform,.18s background;text-decoration:none}
   .btn:active{transform:scale(.96)}
-  .btn svg{width:22px;height:22px}
+  .btn svg{width:36px;height:36px;display:block}
   .btn.sileo{border-color:rgba(10,132,255,.5);background:rgba(10,132,255,.12)}
   .btn.zebra{border-color:rgba(255,159,10,.5);background:rgba(255,159,10,.12)}
   .btn.saily{border-color:rgba(191,90,242,.5);background:rgba(191,90,242,.12)}
@@ -74,15 +74,38 @@
 
     <div class="row">
       <a class="btn sileo" onclick="addSource('sileo','Sileo')">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#0a84ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        <svg viewBox="0 0 48 48" width="36" height="36" aria-hidden="true">
+          <defs><linearGradient id="gSileo" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#2b9bff"/><stop offset="1" stop-color="#0a5cff"/>
+          </linearGradient></defs>
+          <rect x="5" y="5" width="38" height="38" rx="11" fill="url(#gSileo)"/>
+          <path d="M30 17 C30 13.5 27 12 24 12 C20.5 12 18 14 18 17 C18 19.5 20 20.4 24 21.4 C28 22.4 30 23.5 30 27 C30 30.5 27 33 24 33 C20.5 33 18 30.5 18 27"
+            fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>
+        </svg>
         Sileo
       </a>
       <a class="btn zebra" onclick="addSource('zebra','Zebra')">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#ff9f0a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        <svg viewBox="0 0 48 48" width="36" height="36" aria-hidden="true">
+          <defs><clipPath id="cZebra"><rect x="5" y="5" width="38" height="38" rx="11"/></clipPath></defs>
+          <rect x="5" y="5" width="38" height="38" rx="11" fill="#0d0d10"/>
+          <g clip-path="url(#cZebra)" stroke-linecap="round">
+            <g stroke="#fff" stroke-width="4.6">
+              <path d="M11 30 L30 11"/><path d="M17 36 L36 17"/><path d="M23 38 L38 23"/>
+            </g>
+            <path d="M14 33 L33 14" stroke="#ff9f0a" stroke-width="4.6"/>
+          </g>
+        </svg>
         Zebra
       </a>
       <a class="btn saily" onclick="addSource('saily','Saily')">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#bf5af2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        <svg viewBox="0 0 48 48" width="36" height="36" aria-hidden="true">
+          <defs><linearGradient id="gSaily" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#c86bff"/><stop offset="1" stop-color="#8a2be2"/>
+          </linearGradient></defs>
+          <rect x="5" y="5" width="38" height="38" rx="11" fill="url(#gSaily)"/>
+          <path d="M30 17 C30 13.5 27 12 24 12 C20.5 12 18 14 18 17 C18 19.5 20 20.4 24 21.4 C28 22.4 30 23.5 30 27 C30 30.5 27 33 24 33 C20.5 33 18 30.5 18 27"
+            fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>
+        </svg>
         Saily
       </a>
     </div>
