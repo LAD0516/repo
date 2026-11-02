@@ -8,14 +8,14 @@ Components: main
 Description: 个人越狱插件源
 Date: Mon, 02 Nov 2026 09:35:03 UTC
 MD5Sum:
- 4d9d72a48f6df1c2f78697952dd15d53             1699 Packages
- aec61d673a6f983ebad6ad3fe1f80a7f              800 Packages.gz
- 4bd55a4a3adc6210d4d4a196824c6f30              934 Packages.bz2
+ 021087341f16ea5597e885d02d612fb1             1557 Packages
+ eba379e8767f4c6b0b5a6ad2390567fd              769 Packages.gz
+ 32d767a97d4d1985afb85c38a925f4ec              902 Packages.bz2
 SHA1:
- 52412c10a3aa556adf6b4bbb1361a2d387f9ad6c             1699 Packages
- 8f9170755d4c621311bfb3e8cac9b3c5ce27934c              800 Packages.gz
- 52c0bfff9f0ec245593f0d99237ab932eb87372b              934 Packages.bz2
+ 984a6c691f943551acf9bd5caf7e18abd7840b96             1557 Packages
+ e1b3c63bed4ca4a56101b4ad4303c34425c10b05              769 Packages.gz
+ dc29046587923b68cb850046a761169e68f064dc              902 Packages.bz2
 SHA256:
- 00c5109afc6476a8c17be78117ec220800e278ee8aead0253c1241981f93891a             1699 Packages
- a5809b311618be350a60305e8873b4fd3afa337824a03de482d89758bd14152d              800 Packages.gz
- 0d1b940ef2058ec39e2e1491948610134ac08de423975ba2cd9a94cd4c774ebc              934 Packages.bz2
+ 98ff1e3af6fa4f1c0d3af47d781fb2066a50ec648f02f232a53b6f4d37d9c4ee             1557 Packages
+ 12522b52501c43c1dc0c2c51f11ec69b92bfc44a596ad86b86cc85ff93cca336              769 Packages.gz
+ 3d6d731a19406d2b52b43e7355d4c54342ec2a576be7f1619ad7f480d099db57              902 Packages.bz2
