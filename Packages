@@ -1,3 +1,73 @@
+Package: com.gna1j.appdataplus
+Name: AppData Plus
+Description: 为 AppData 增加自定义清理目录、清理前备份回滚、批量清理与体积统计
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts:
+Author: GnA1J
+Maintainer: GnA1J
+Architecture: iphoneos-arm64
+Version: 2.3.3
+Installed-Size: 468
+Filename: debs/com.gna1j.appdataplus_2.3.3_iphoneos-arm64.deb
+Size: 143412
+MD5sum: d115b8f4804cda95eebc91155fd6d31c
+SHA1: 2328fb8e5ece24541655075b5cb25e1660b3d886
+SHA256: 1d0a2135f462ec60cc7c39ac97740c45c3fe5aa1eee60b8e2a23921491c572ce
+
+Package: com.gna1j.appdataplus
+Name: AppData Plus
+Description: 为 AppData 增加自定义清理目录、清理前备份回滚、批量清理与体积统计
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts:
+Author: GnA1J
+Maintainer: GnA1J
+Architecture: iphoneos-arm64e
+Version: 2.3.3
+Installed-Size: 484
+Filename: debs/com.gna1j.appdataplus_2.3.3_iphoneos-arm64e.deb
+Size: 145336
+MD5sum: 259a9c6ff952d4d7ba1e4cb26e3c0207
+SHA1: c1e6ff8d69af076b26e26b8594626600a98e54a3
+SHA256: eb27c893d90cc80aa027069e83c7f99135a3256f305c0731a67151e1d3406b29
+
+Package: com.gna1j.pulloverx
+Name: PullOverX(RootHide)
+Description: 悬浮多任务窗口工具，基于 mlgm的PullOver X。已修复「截图/录屏隐藏把手」冻结模式失效，支持「卡片大小」设置，增加多种弧形展开方式，优化部分功能。
+Section: 嗨-工具
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: GnA1J
+Architecture: iphoneos-arm64
+Version: 1.5.18
+Installed-Size: 936
+Filename: debs/com.gna1j.pulloverx_1.5.18_iphoneos-arm64.deb
+Size: 318104
+MD5sum: f6e8100c3117548da77be967e3e7686b
+SHA1: b4c379a0bf557f1ada367a176f55d87b35b31c17
+SHA256: 39e00eb1da1da92039c3decd7d5d4c5b8df5b122be310be31764aae0198ca844
+
+Package: com.gna1j.pulloverx
+Name: PullOverX(RootHide)
+Description: 悬浮多任务窗口工具，基于 mlgm的PullOver X。已修复「截图/录屏隐藏把手」冻结模式失效，支持「卡片大小」设置，增加多种弧形展开方式，优化部分功能。
+Section: 嗨-工具
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: GnA1J
+Architecture: iphoneos-arm64e
+Version: 1.5.18
+Installed-Size: 948
+Filename: debs/com.gna1j.pulloverx_1.5.18_iphoneos-arm64e.deb
+Size: 320316
+MD5sum: e0d0c295f73fe553acda4bfa384db699
+SHA1: a00e2e5cad42c2114e1031b78b75e166a6a5cff0
+SHA256: 4ad31033130a720ed1df7ca40a131cc448736449c07577122a69acb0c662634f
+
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule
 Description: 在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / Dopamine 越狱）。
