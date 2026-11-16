@@ -72,7 +72,7 @@
     <div class="hero">
       <div class="avatar-wrap"><img class="avatar" src="avatar.png" alt="GnA1J源"></div>
       <h1>GnA1J源</h1>
-      <p class="sub">越狱插件源 · 支持 Sileo / Zebra / Saily 一键添加</p>
+      <p class="sub">个人越狱插件源 · 支持 Sileo / Zebra / Saily 一键添加</p>
     </div>
 
     <div class="row">
@@ -179,8 +179,7 @@
               + '<a href="' + esc(REPO + (f.filename || "")) + '">下载</a>'
               + '</div>';
           });
-          host.innerHTML = items.length ? items.join("
-      ")
+          host.innerHTML = items.length ? items.join("\n      ")
                                          : '<p class="hint">暂无插件</p>';
         })
         .catch(function(e){
