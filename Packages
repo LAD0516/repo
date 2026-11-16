@@ -1,31 +1,243 @@
+Package: com.gan1j.kspurify
+Name: KS Purify
+Description: 快手/快手极速版净化增强插件
+ 功能详细：屏蔽视频流广告并支持关键词匹配，屏蔽图文作品和直播流，支持文案与低赞阈值过滤等功能。
+Maintainer: GnA1J
+Author: GnA1J
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit
+Architecture: iphoneos-arm64
+Version: 0.3.39
+Installed-Size: 244
+Filename: debs/com.gan1j.kspurify_0.3.39_iphoneos-arm64.deb
+Size: 80360
+MD5sum: ffa56fe63410ce14a1d638bde7a1af6a
+SHA1: f2fd411a5aa1f5e37ce955d8483f8c2c1aa8d3e0
+SHA256: 908fa8118b333dd315d0cbc22e40347bff4d6e42cec15699acff25f167a1d69d
+
+Package: com.gan1j.kspurify
+Name: KS Purify
+Description: 快手/快手极速版净化增强插件
+ 功能详细：屏蔽视频流广告并支持关键词匹配，屏蔽图文作品和直播流，支持文案与低赞阈值过滤等功能。
+Maintainer: GnA1J
+Author: GnA1J
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit
+Architecture: iphoneos-arm64e
+Version: 0.3.39
+Installed-Size: 260
+Filename: debs/com.gan1j.kspurify_0.3.39_iphoneos-arm64e.deb
+Size: 80440
+MD5sum: 2e24726378f094359e862750a32c8373
+SHA1: a0126264f4b831a4b795e69080bafdd2aa1c20bb
+SHA256: b527e145edac005fb64848122e9aad5585ab3791dc7e4f32d7c7e6810574a24e
+
+Package: com.gna1j.appdataplus
+Name: AppData Extension
+Description: AppData 的独立增强扩展：自定义清理目录、清理前备份回滚、批量清理与体积统计
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts:
+Author: GnA1J
+Maintainer: GnA1J
+Architecture: iphoneos-arm64
+Version: 2.6.2
+Installed-Size: 764
+Filename: debs/com.gna1j.appdataplus_2.6.2_iphoneos-arm64.deb
+Size: 412900
+MD5sum: 1e60c318f80229c14b5e976eca95dc1a
+SHA1: e657a359597c22cb5425ba0079c142441c723c6d
+SHA256: 039d6fe9989fc63a18738784cea0f6c293ecc0bb61e84215b5a0b4d2abfb07c1
+
+Package: com.gna1j.appdataplus
+Name: AppData Extension
+Description: AppData 的独立增强扩展：自定义清理目录、清理前备份回滚、批量清理与体积统计
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts:
+Author: GnA1J
+Maintainer: GnA1J
+Architecture: iphoneos-arm64e
+Version: 2.6.2
+Installed-Size: 796
+Filename: debs/com.gna1j.appdataplus_2.6.2_iphoneos-arm64e.deb
+Size: 415064
+MD5sum: 72043a85197de096475a010895872533
+SHA1: ad48e341d09819cc05824e0b6d50a3b64a9876dc
+SHA256: 2b00473ff147adea75f15941dbd7ae84e8935b53d47d77f501ed6a4667ccf155
+
+Package: com.gna1j.pulloverx
+Name: PullOverX
+Description: 悬浮多任务窗口工具，基于 mlgm的PullOver X修改。已修复「截图/录屏隐藏把手」冻结模式失效，支持「卡片大小」设置，增加多种弧形展开方式，优化部分功能。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: GnA1J
+Architecture: iphoneos-arm64
+Version: 1.5.20
+Installed-Size: 960
+Filename: debs/com.gna1j.pulloverx_1.5.20_iphoneos-arm64.deb
+Size: 326640
+MD5sum: 447d7e20ec04d468a86234589061a917
+SHA1: 600fd5718928f462e74ae93c4ff56eee6b4a4c58
+SHA256: a13035b0093ee17bc6e35f6b49504ecdda6bbfb34b78fd80319730c1a9e443e0
+
+Package: com.gna1j.pulloverx
+Name: PullOverX
+Description: 悬浮多任务窗口工具，基于 mlgm的PullOver X修改。已修复「截图/录屏隐藏把手」冻结模式失效，支持「卡片大小」设置，增加多种弧形展开方式，优化部分功能。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: GnA1J
+Architecture: iphoneos-arm64e
+Version: 1.5.20
+Installed-Size: 988
+Filename: debs/com.gna1j.pulloverx_1.5.20_iphoneos-arm64e.deb
+Size: 328622
+MD5sum: 3a543a553abaacdd14a86c81d953313e
+SHA1: a22d5274846c0c3971b62e5a808f1a25217f681b
+SHA256: d8ff3d766726c85e11a86feb903063d4b6baebb8ba4ea8cc339b4b05c40a7338
+
+Package: com.gna1j.qxplus
+Name: QX Plus
+Description: Quantumult X 增强插件：持久化数据新增/编辑、抓包数据 A/B 对比、时间分组查看
+Maintainer: GnA1J
+Author: GnA1J
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.5.8
+Installed-Size: 196
+Filename: debs/com.gna1j.qxplus_0.5.8_iphoneos-arm64.deb
+Size: 54250
+MD5sum: d8afe75173879a2915596a12a1537b04
+SHA1: 7220cbd3aa94f39483a700454f22f845f817ea06
+SHA256: 10bb98dc053f7e60e14dd64d7896f8c64810884721d7b18d94d686554516ebea
+
+Package: com.gna1j.qxplus
+Name: QX Plus
+Description: Quantumult X 增强插件：持久化数据新增/编辑、抓包数据 A/B 对比、时间分组查看
+Maintainer: GnA1J
+Author: GnA1J
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.5.8
+Installed-Size: 404
+Filename: debs/com.gna1j.qxplus_0.5.8_iphoneos-arm64e.deb
+Size: 108030
+MD5sum: 979d9949739b93b9169d05e72d361ac0
+SHA1: 302bf941c2bbea8e03b884a07dbe9fdc12f9fe0a
+SHA256: cad0b10d7ea7674fb8921142d663d5fcf88a669039089758086e2e6fd68c9efb
+
 Package: com.gna1j.remindercapsule
-Name: ReminderCapsule
+Name: ReminderCapsule 待办胶囊
 Description: 在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / Dopamine 越狱）。
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
-Version: 1.0-29
-Installed-Size: 496
-Filename: debs/com.gna1j.remindercapsule_1.0-29_iphoneos-arm64.deb
-Size: 149930
-MD5sum: dd8a4b0ecff965e820d9dae7eecf93f2
-SHA1: 663ab7ebae38898f1906b41aedfe824f4fc607af
-SHA256: 73f22db4a78b79591e83f90f8d27257e735bb892ac27e076c72a18652c73e0f3
+Version: 1.0-61
+Installed-Size: 648
+Filename: debs/com.gna1j.remindercapsule_1.0-61_iphoneos-arm64.deb
+Size: 218696
+MD5sum: a9e09ec9bff64c631246292eca267aae
+SHA1: da19ad6ca7a0e5b73ba646d234b99cd95f6301f0
+SHA256: 53a9b8967b0010ac1f9f50b5ab206025be5ec0b11b0067ab4b187d9398461f66
 
 Package: com.gna1j.remindercapsule
-Name: ReminderCapsule
+Name: ReminderCapsule 待办胶囊
 Description: 在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / Dopamine 越狱）。
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
-Version: 1.0-29
-Installed-Size: 496
-Filename: debs/com.gna1j.remindercapsule_1.0-29_iphoneos-arm64e.deb
-Size: 150540
-MD5sum: 673d7a0d8ca7f62589d48f64906297df
-SHA1: 6b2b34a938cb1a0f982f3caa122be70d0687ac8e
-SHA256: 8aaef062b1c558733c834ebaf782bc64782ba043b9337b1b2f1d5d8a66d6b8e9
+Version: 1.0-61
+Installed-Size: 648
+Filename: debs/com.gna1j.remindercapsule_1.0-61_iphoneos-arm64e.deb
+Size: 219548
+MD5sum: 224bf94b2206dc6fe2a6770e9f805e04
+SHA1: e11b23c738fc72a1200b45414dbd76eb7ccd9871
+SHA256: 3318017e164072208840dcdd23f96b8da7fe8d187c16ff2f70da579ed092dc38
+
+Package: com.gna1j.stepup
+Name: StepUp
+Description: 调节音量键每次增减的步进数值。优化支持RootHide iOS15.0 ~ 16.6.1。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.nahtedetihw.stepup
+Replaces: com.nahtedetihw.stepup
+Priority: optional
+Author: GnA1J · ETHN
+Maintainer: GnA1J
+Architecture: iphoneos-arm64
+Version: 1.3
+Installed-Size: 244
+Filename: debs/com.gna1j.stepup_1.3_iphoneos-arm64.deb
+Size: 25670
+MD5sum: 3d1630587a23e0727a8835103d6c38a3
+SHA1: 5b77f146042ac4e6e5e73d8765899d73bb8800f3
+SHA256: fce2069cd8542753090e24684ef75d3b197d2ec7fd1dfdc2c15492a4e3421830
+
+Package: com.gna1j.stepup
+Name: StepUp
+Description: 调节音量键每次增减的步进数值。优化支持RootHide iOS15.0 ~ 16.6.1。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.nahtedetihw.stepup
+Replaces: com.nahtedetihw.stepup
+Priority: optional
+Author: GnA1J · ETHN
+Maintainer: GnA1J
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 244
+Filename: debs/com.gna1j.stepup_1.3_iphoneos-arm64e.deb
+Size: 25422
+MD5sum: ae40b235195d5866153b9f36b12b92b6
+SHA1: 96ed2343ca610f2e9f4cfc71f444e01ceb6d06ef
+SHA256: a4c4bec65327d7ba4d0976b9947a52f3c08155d0f33884e871200a6d9e5f37af
+
+Package: com.gna1j.viewpurify
+Name: ViewPurify  视图净化
+Description: 视图净化 — 按规则隐藏 App 内的视图控件
+ FLEX 选层或内置点选；隐藏 / 透明 / 移除等方式，首帧同帧生效不闪。
+ 共享规则库、导入导出、历史回滚；独立管理 App 集中控制。
+ 支持 iOS 15+ 
+Maintainer: GnA1J
+Author: GnA1J
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit
+Architecture: iphoneos-arm64
+Version: 0.2.73
+Installed-Size: 4264
+Filename: debs/com.gna1j.viewpurify_0.2.73_iphoneos-arm64.deb
+Size: 1513640
+MD5sum: 17ec5230cee9a5b8f2a6b7f5d1d0c5c9
+SHA1: 860c46d15d0c0aad8f3b991a34dcde99042bf017
+SHA256: e5b6ee80bb0e40da0006e68523c86a07bd8d2a99aaeabf1390db4244a26cdbfa
+
+Package: com.gna1j.viewpurify
+Name: ViewPurify  视图净化
+Description: 视图净化 — 按规则隐藏 App 内的视图控件
+ FLEX 选层或内置点选；隐藏 / 透明 / 移除等方式，首帧同帧生效不闪。
+ 共享规则库、导入导出、历史回滚；独立管理 App 集中控制。
+ 支持 iOS 15+ 
+Maintainer: GnA1J
+Author: GnA1J
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit
+Architecture: iphoneos-arm64e
+Version: 0.2.73
+Installed-Size: 4276
+Filename: debs/com.gna1j.viewpurify_0.2.73_iphoneos-arm64e.deb
+Size: 1515386
+MD5sum: 5d5bb80dfaea4bb22c6c5c20c065cf4a
+SHA1: f15d0cc9fed0b6ab68864f131670a8bed8e47b09
+SHA256: 8c2f3c7ae29a50dfb5dcb01b164123f4e93dff20eb80240dcf651c3d35e5fee7
