@@ -74,116 +74,67 @@
       <h1>GnA1J源</h1>
       <p class="sub">个人越狱插件源 · 支持 Sileo / Zebra / Saily 一键添加</p>
     </div>
-
     <div class="row">
       <a class="btn sileo" onclick="addSource('sileo','Sileo')">
-        <span class="ico"><img src="icon-sileo.png" alt="Sileo"></span>
-        Sileo
-      </a>
+        <span class="ico"><img src="icon-sileo.png" alt="Sileo"></span>Sileo</a>
       <a class="btn zebra" onclick="addSource('zebra','Zebra')">
-        <span class="ico"><img src="icon-zebra.svg" alt="Zebra"></span>
-        Zebra
-      </a>
+        <span class="ico"><img src="icon-zebra.svg" alt="Zebra"></span>Zebra</a>
       <a class="btn saily" onclick="addSource('saily','Saily')">
-        <span class="ico"><img src="icon-saily.png" alt="Saily"></span>
-        Saily
-      </a>
+        <span class="ico"><img src="icon-saily.png" alt="Saily"></span>Saily</a>
     </div>
-
     <div class="copy">
       <span class="url" id="url">https://LAD0516.github.io/repo/</span>
       <button onclick="copyUrl()">复制源地址</button>
     </div>
-
     <div class="pk">
       <h2>可用插件</h2>
       <div id="pk-list"><p class="hint">正在加载插件列表…</p></div>
     </div>
-
     <p class="foot">源地址末尾的斜杠不能少 · 用手机浏览器打开本页点对应按钮即可添加</p>
   </main>
-
   <div id="toast"></div>
-
   <script>
     const REPO = "https://LAD0516.github.io/repo/";
-    const SCHEMES = {
-      sileo: "sileo://source/" + REPO,
-      zebra: "zbra://sources/add/" + REPO,
-      saily: "saily://source/" + REPO
-    };
-
-    function toast(msg){
-      const t = document.getElementById("toast");
-      t.textContent = msg; t.classList.add("show");
-      clearTimeout(t._t); t._t = setTimeout(()=>t.classList.remove("show"), 1800);
-    }
+    const SCHEMES = {sileo:"sileo://source/"+REPO, zebra:"zbra://sources/add/"+REPO, saily:"saily://source/"+REPO};
+    function toast(msg){const t=document.getElementById("toast");t.textContent=msg;t.classList.add("show");clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove("show"),1800);}
     function copyText(text){
-      if (navigator.clipboard && window.isSecureContext){
-        return navigator.clipboard.writeText(text);
-      }
-      return new Promise((res, rej)=>{
-        const ta = document.createElement("textarea");
-        ta.value = text; ta.style.position="fixed"; ta.style.opacity="0";
-        document.body.appendChild(ta); ta.select();
-        try { document.execCommand("copy"); res(); }
-        catch(e){ rej(e); }
-        document.body.removeChild(ta);
-      });
+      if(navigator.clipboard&&window.isSecureContext) return navigator.clipboard.writeText(text);
+      return new Promise((res,rej)=>{const ta=document.createElement("textarea");ta.value=text;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy");res();}catch(e){rej(e);}document.body.removeChild(ta);});
     }
-    function copyUrl(){ copyText(REPO).then(()=>toast("已复制源地址 ✓")); }
-
-    function addSource(mgr, label){
-      copyText(REPO).then(()=>{
-        toast("已复制源地址，正在打开 " + label + " …");
-        window.location.href = SCHEMES[mgr];
-      }).catch(()=>{
-        toast("复制失败，请长按上方地址手动复制");
-      });
-    }
-
-    // 动态读取 Packages 渲染插件列表：以后发版只需更新 Packages*，本页无需再改。
-    function esc(s){
-      return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){
-        return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
-      });
-    }
+    function copyUrl(){copyText(REPO).then(()=>toast("已复制源地址 ✓"));}
+    function addSource(mgr,label){copyText(REPO).then(()=>{toast("已复制源地址，正在打开 "+label+" …");window.location.href=SCHEMES[mgr];}).catch(()=>toast("复制失败，请长按上方地址手动复制"));}
+    function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
     function parsePackages(text){
-      var out = [];
-      text.replace(/\r/g, "").split(/\n\s*\n/).forEach(function(block){
-        var f = {};
+      var out=[];
+      text.replace(/\r/g,"").split(/\n\s*\n/).forEach(function(block){
+        var f={};
         block.split("\n").forEach(function(line){
-          if (/^[ \t]/.test(line)) return;
-          var i = line.indexOf(":");
-          if (i < 0) return;
-          f[line.slice(0, i).trim().toLowerCase()] = line.slice(i + 1).trim();
+          if(/^[ \t]/.test(line)) return;
+          var i=line.indexOf(":"); if(i<0) return;
+          f[line.slice(0,i).trim().toLowerCase()]=line.slice(i+1).trim();
         });
-        if (!f.package || !f.version) return;
+        if(!f.package||!f.version) return;
         out.push(f);
       });
       return out;
     }
     function renderList(){
-      var host = document.getElementById("pk-list");
-      fetch("Packages" + "?t=" + Date.now(), {cache:"no-store"})
-        .then(function(r){ if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+      var host=document.getElementById("pk-list");
+      fetch("Packages"+"?t="+Date.now(),{cache:"no-store"})
+        .then(function(r){if(!r.ok) throw new Error("HTTP "+r.status);return r.text();})
         .then(function(text){
-          var items = parsePackages(text).map(function(f){
-            var arch = (f.architecture || "").replace(/^iphoneos-/, "");
+          var items=parsePackages(text).map(function(f){
+            var arch=(f.architecture||"").replace(/^iphoneos-/,"");
             return '<div class="item">'
-              + '<span class="name">' + esc(f.name || f.package) + '</span>'
-              + '<span class="badge v">' + esc(f.version) + '</span>'
-              + '<span class="badge">' + esc(arch) + '</span>'
-              + '<a href="' + esc(REPO + (f.filename || "")) + '">下载</a>'
-              + '</div>';
+              +'<span class="name">'+esc(f.name||f.package)+'</span>'
+              +'<span class="badge v">'+esc(f.version)+'</span>'
+              +'<span class="badge">'+esc(arch)+'</span>'
+              +'<a href="'+esc(REPO+(f.filename||""))+'">下载</a>'
+              +'</div>';
           });
-          host.innerHTML = items.length ? items.join("\n      ")
-                                         : '<p class="hint">暂无插件</p>';
+          host.innerHTML=items.length?items.join("\n      "):'<p class="hint">暂无插件</p>';
         })
-        .catch(function(e){
-          host.innerHTML = '<p class="hint">插件列表加载失败：' + esc(e.message)
-                          + '<br>请刷新重试</p>';
-        });
+        .catch(function(e){host.innerHTML='<p class="hint">插件列表加载失败：'+esc(e.message)+'<br>请刷新重试</p>';});
     }
     renderList();
   </script>

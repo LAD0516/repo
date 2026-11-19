@@ -1,0 +1,51 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#0A84FF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "介绍",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "PullOverX"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "PullOver X - 优化增强版，基于 mlgm 的 PullOver X 修改。修复冻结模式截图/录屏隐藏失效，增加「卡片大小」设置，增加显示收藏应用 + 最近应用，增加多种弧形展开方式，优化部分功能。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "预览"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{180, 390}",
+          "screenshots": [
+            {
+              "url": "https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/screenshots/pulloverx-1.jpg",
+              "accessibilityText": "PullOverX 预览图 1",
+              "fullSizeURL": "https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/screenshots/pulloverx-1.jpg"
+            },
+            {
+              "url": "https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/screenshots/pulloverx-2.jpg",
+              "accessibilityText": "PullOverX 预览图 2",
+              "fullSizeURL": "https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/screenshots/pulloverx-2.jpg"
+            },
+            {
+              "url": "https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/screenshots/pulloverx-3.jpg",
+              "accessibilityText": "PullOverX 预览图 3",
+              "fullSizeURL": "https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/screenshots/pulloverx-3.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

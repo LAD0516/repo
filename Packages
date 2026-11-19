@@ -8,12 +8,12 @@ Section: Tweaks
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64
 Version: 0.3.39
-Installed-Size: 244
+Installed-Size: 516
 Filename: debs/com.gan1j.kspurify_0.3.39_iphoneos-arm64.deb
-Size: 80360
-MD5sum: ffa56fe63410ce14a1d638bde7a1af6a
-SHA1: f2fd411a5aa1f5e37ce955d8483f8c2c1aa8d3e0
-SHA256: 908fa8118b333dd315d0cbc22e40347bff4d6e42cec15699acff25f167a1d69d
+Size: 160444
+MD5sum: 87c65a5216af9bf17da1b530d5d38f58
+SHA1: 4740cbd58a98430d96c39151e9bba873cc510dbc
+SHA256: 03fdf8594622ed4969d2d8683517f01836b36c972def192cedddb99107972858
 
 Package: com.gan1j.kspurify
 Name: KS Purify
@@ -25,12 +25,12 @@ Section: Tweaks
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64e
 Version: 0.3.39
-Installed-Size: 260
+Installed-Size: 516
 Filename: debs/com.gan1j.kspurify_0.3.39_iphoneos-arm64e.deb
-Size: 80440
-MD5sum: 2e24726378f094359e862750a32c8373
-SHA1: a0126264f4b831a4b795e69080bafdd2aa1c20bb
-SHA256: b527e145edac005fb64848122e9aad5585ab3791dc7e4f32d7c7e6810574a24e
+Size: 160370
+MD5sum: 238107c4a935b0d0978e4f04ca94bf3a
+SHA1: dfd071bd99ed18511332b184b0757aaaf2f904ad
+SHA256: 5bf7d17d43243107da8c0f3800bd087d8a5b781eb8674f78cebb3359c1fa858a
 
 Package: com.gna1j.appdataplus
 Name: AppData Extension
@@ -41,13 +41,13 @@ Conflicts:
 Author: GnA1J
 Maintainer: GnA1J
 Architecture: iphoneos-arm64
-Version: 2.6.2
-Installed-Size: 764
-Filename: debs/com.gna1j.appdataplus_2.6.2_iphoneos-arm64.deb
-Size: 412900
-MD5sum: 1e60c318f80229c14b5e976eca95dc1a
-SHA1: e657a359597c22cb5425ba0079c142441c723c6d
-SHA256: 039d6fe9989fc63a18738784cea0f6c293ecc0bb61e84215b5a0b4d2abfb07c1
+Version: 2.6.3
+Installed-Size: 1324
+Filename: debs/com.gna1j.appdataplus_2.6.3_iphoneos-arm64.deb
+Size: 577318
+MD5sum: 7a856ecfd6e1cb04c2047cd205bb645f
+SHA1: 648ac975514015c1d9195921d4a2ac50ceb54cd5
+SHA256: 1b6d1e3e7c468c97008ae860fb82de33549564268e9f5bfce1bd78870dad2df2
 
 Package: com.gna1j.appdataplus
 Name: AppData Extension
@@ -58,17 +58,17 @@ Conflicts:
 Author: GnA1J
 Maintainer: GnA1J
 Architecture: iphoneos-arm64e
-Version: 2.6.2
-Installed-Size: 796
-Filename: debs/com.gna1j.appdataplus_2.6.2_iphoneos-arm64e.deb
-Size: 415064
-MD5sum: 72043a85197de096475a010895872533
-SHA1: ad48e341d09819cc05824e0b6d50a3b64a9876dc
-SHA256: 2b00473ff147adea75f15941dbd7ae84e8935b53d47d77f501ed6a4667ccf155
+Version: 2.6.3
+Installed-Size: 1324
+Filename: debs/com.gna1j.appdataplus_2.6.3_iphoneos-arm64e.deb
+Size: 577268
+MD5sum: 73a3e73b2cfdf3597522eea390fcf55b
+SHA1: 42e121eb107a95d4558a9ce4ba9a8fd77454c887
+SHA256: ce61ca6da508409efdadce266686038b0a4bb61f43cf4fd23f5106d8713addda
 
 Package: com.gna1j.pulloverx
 Name: PullOverX
-Description: 悬浮多任务窗口工具，基于 mlgm的PullOver X修改。已修复「截图/录屏隐藏把手」冻结模式失效，支持「卡片大小」设置，增加多种弧形展开方式，优化部分功能。
+Description: PullOver X - 优化增强版，基于mlgm的PullOver X修改。修复冻结模式截图隐藏失效,增加支持「卡片大小」设置，增加支持显示收藏应用 + 最近应用，增加多种弧形展开方式，优化部分功能。
 Section: Tweaks
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
@@ -77,16 +77,17 @@ Author: mlgm
 Maintainer: GnA1J
 Architecture: iphoneos-arm64
 Version: 1.5.20
-Installed-Size: 960
+Installed-Size: 1836
+SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/depiction.json
 Filename: debs/com.gna1j.pulloverx_1.5.20_iphoneos-arm64.deb
-Size: 326640
-MD5sum: 447d7e20ec04d468a86234589061a917
-SHA1: 600fd5718928f462e74ae93c4ff56eee6b4a4c58
-SHA256: a13035b0093ee17bc6e35f6b49504ecdda6bbfb34b78fd80319730c1a9e443e0
+Size: 571008
+MD5sum: dddabe2aa0ab99de8939cc405c0c9264
+SHA1: f2bc7bc0c705a4e5f01e3058b2a822e72e0227ca
+SHA256: a3019ab7e0855ba75039042133ff1388d7e4e8e790b5d4ae89f1fb1b0bdcde9b
 
 Package: com.gna1j.pulloverx
 Name: PullOverX
-Description: 悬浮多任务窗口工具，基于 mlgm的PullOver X修改。已修复「截图/录屏隐藏把手」冻结模式失效，支持「卡片大小」设置，增加多种弧形展开方式，优化部分功能。
+Description: PullOver X - 优化增强版，基于mlgm的PullOver X修改。修复冻结模式截图隐藏失效,增加支持「卡片大小」设置，增加支持显示收藏应用 + 最近应用，增加多种弧形展开方式，优化部分功能。
 Section: Tweaks
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
@@ -95,12 +96,13 @@ Author: mlgm
 Maintainer: GnA1J
 Architecture: iphoneos-arm64e
 Version: 1.5.20
-Installed-Size: 988
+Installed-Size: 1820
+SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/depiction.json
 Filename: debs/com.gna1j.pulloverx_1.5.20_iphoneos-arm64e.deb
-Size: 328622
-MD5sum: 3a543a553abaacdd14a86c81d953313e
-SHA1: a22d5274846c0c3971b62e5a808f1a25217f681b
-SHA256: d8ff3d766726c85e11a86feb903063d4b6baebb8ba4ea8cc339b4b05c40a7338
+Size: 567848
+MD5sum: 3223e333846e1007f951ee147cf2d01d
+SHA1: 982359591b1f39adcb4d8304fccc95824294720d
+SHA256: f835a7e32c933d7e917320ad2ccc8e35417ffc9637c5df8db42dcd53a0a3594f
 
 Package: com.gna1j.qxplus
 Name: QX Plus
@@ -111,12 +113,12 @@ Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64
 Version: 0.5.8
-Installed-Size: 196
+Installed-Size: 404
 Filename: debs/com.gna1j.qxplus_0.5.8_iphoneos-arm64.deb
-Size: 54250
-MD5sum: d8afe75173879a2915596a12a1537b04
-SHA1: 7220cbd3aa94f39483a700454f22f845f817ea06
-SHA256: 10bb98dc053f7e60e14dd64d7896f8c64810884721d7b18d94d686554516ebea
+Size: 108100
+MD5sum: 48622c9b58b9c56823b1796f8267ff23
+SHA1: 4ceb39d7dc59f2e11fdc540935f59c39552ad042
+SHA256: 7fc88f154eedf70621c8997a32e853da563155fac8c45b14e800fb96c9746ca2
 
 Package: com.gna1j.qxplus
 Name: QX Plus
@@ -130,9 +132,9 @@ Version: 0.5.8
 Installed-Size: 404
 Filename: debs/com.gna1j.qxplus_0.5.8_iphoneos-arm64e.deb
 Size: 108030
-MD5sum: 979d9949739b93b9169d05e72d361ac0
-SHA1: 302bf941c2bbea8e03b884a07dbe9fdc12f9fe0a
-SHA256: cad0b10d7ea7674fb8921142d663d5fcf88a669039089758086e2e6fd68c9efb
+MD5sum: 9c9d8c5df6dba73e5d8f52c9cc441656
+SHA1: 72e2b5a8df26d28f6305b87077679a1fb63b3b2c
+SHA256: 81e6dfa51e417fffb051e629d582f5ff79bef03f167ca1440ec44c41da601100
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule 待办胶囊
@@ -143,13 +145,13 @@ Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
 Version: 1.0-64
-Installed-Size: 704
+Installed-Size: 1408
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
 Filename: debs/com.gna1j.remindercapsule_1.0-64_iphoneos-arm64.deb
-Size: 234840
-MD5sum: 60ca0e9a1d1a2cac78ea70049e6073d0
-SHA1: c8c97ffb9ba566cd6aff094218194a2c2bc2bc38
-SHA256: 9b3029973fb84a555119121b0ab90e8652a73ecb06b716da54feefb23a9db515
+Size: 450400
+MD5sum: e194a43c4fd96fb3bc388115795c16e6
+SHA1: 398300240532815fc034af981eb57067ccd2424a
+SHA256: f9c42cb40f816043c4840b744f92339809a3c8861bf45ec4174423df1b562d09
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule 待办胶囊
@@ -160,13 +162,13 @@ Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
 Version: 1.0-64
-Installed-Size: 704
+Installed-Size: 1408
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
 Filename: debs/com.gna1j.remindercapsule_1.0-64_iphoneos-arm64e.deb
-Size: 235610
-MD5sum: 09355eb29046125d9e616146e12ce7ff
-SHA1: a8d5a15ee2c252e6338661faf2bc2f3ccbb5be4b
-SHA256: 1d5176e2cae774dcca04f2fc5b9b0693fa019e0cd0ae9d799111050ca5046ce0
+Size: 450290
+MD5sum: e0a82bc35d4bc269dc4c00ba65f752c2
+SHA1: 800fae038339a792fbea7a56730ca666b71f1203
+SHA256: f90b76ea6865ee09220a85211572c692ca7c0f0cd289209083bab0bbddbdf509
 
 Package: com.gna1j.stepup
 Name: StepUp
@@ -180,12 +182,12 @@ Author: GnA1J · ETHN
 Maintainer: GnA1J
 Architecture: iphoneos-arm64
 Version: 1.3
-Installed-Size: 244
+Installed-Size: 468
 Filename: debs/com.gna1j.stepup_1.3_iphoneos-arm64.deb
-Size: 25670
-MD5sum: 3d1630587a23e0727a8835103d6c38a3
-SHA1: 5b77f146042ac4e6e5e73d8765899d73bb8800f3
-SHA256: fce2069cd8542753090e24684ef75d3b197d2ec7fd1dfdc2c15492a4e3421830
+Size: 36796
+MD5sum: 1f79a935958a8d2ca210b62360f893f8
+SHA1: 8cb16c3f24c242d6c6952e544128e14205cd8fcf
+SHA256: 34a5bc4f3ebfae87da9927602add618cb2a49ac57a3d7860f0bbd21cbe222659
 
 Package: com.gna1j.stepup
 Name: StepUp
@@ -199,47 +201,45 @@ Author: GnA1J · ETHN
 Maintainer: GnA1J
 Architecture: iphoneos-arm64e
 Version: 1.3
-Installed-Size: 244
+Installed-Size: 468
 Filename: debs/com.gna1j.stepup_1.3_iphoneos-arm64e.deb
-Size: 25422
-MD5sum: ae40b235195d5866153b9f36b12b92b6
-SHA1: 96ed2343ca610f2e9f4cfc71f444e01ceb6d06ef
-SHA256: a4c4bec65327d7ba4d0976b9947a52f3c08155d0f33884e871200a6d9e5f37af
+Size: 36716
+MD5sum: a18ef45a131880cabacf66c879fcc207
+SHA1: 2656ef127d2000c8520d87b9776eee3a86f73d94
+SHA256: bf74a37852ec209cd314a6a93de10e85c76249a86aa61fa8375bd863d2b82b3f
 
 Package: com.gna1j.viewpurify
 Name: ViewPurify  视图净化
-Description: 视图净化 — 按规则隐藏 App 内的视图控件
- FLEX 选层或内置点选；隐藏 / 透明 / 移除等方式，首帧同帧生效不闪。
- 共享规则库、导入导出、历史回滚；独立管理 App 集中控制。
- 支持 iOS 15+ 
+Description: 视图净化 - 按规则隐藏App内的视图控件
+ FLEX选层或内置点击选择，隐藏 / 透明 / 移除等方式，首帧同帧生效防闪。
+ 支持规则库、导入导出、历史回滚。支持iOS15.0 - iOS17（Dopamine / RootHide）
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64
 Version: 0.2.73
-Installed-Size: 4264
+Installed-Size: 4708
 Filename: debs/com.gna1j.viewpurify_0.2.73_iphoneos-arm64.deb
-Size: 1513640
-MD5sum: 17ec5230cee9a5b8f2a6b7f5d1d0c5c9
-SHA1: 860c46d15d0c0aad8f3b991a34dcde99042bf017
-SHA256: e5b6ee80bb0e40da0006e68523c86a07bd8d2a99aaeabf1390db4244a26cdbfa
+Size: 1666196
+MD5sum: 475a71819ffe5fee828f87f04050831d
+SHA1: 0f7480919434af1feeecab6fed9257446a73f802
+SHA256: 36070692878af40c50c314c519e05020ef4995a10f42bff5a0b47d4ece9c3518
 
 Package: com.gna1j.viewpurify
 Name: ViewPurify  视图净化
-Description: 视图净化 — 按规则隐藏 App 内的视图控件
- FLEX 选层或内置点选；隐藏 / 透明 / 移除等方式，首帧同帧生效不闪。
- 共享规则库、导入导出、历史回滚；独立管理 App 集中控制。
- 支持 iOS 15+ 
+Description: 视图净化 - 按规则隐藏App内的视图控件
+ FLEX选层或内置点击选择，隐藏 / 透明 / 移除等方式，首帧同帧生效防闪。
+ 支持规则库、导入导出、历史回滚。支持iOS15.0 - iOS17（Dopamine / RootHide）
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64e
 Version: 0.2.73
-Installed-Size: 4276
+Installed-Size: 4708
 Filename: debs/com.gna1j.viewpurify_0.2.73_iphoneos-arm64e.deb
-Size: 1515386
-MD5sum: 5d5bb80dfaea4bb22c6c5c20c065cf4a
-SHA1: f15d0cc9fed0b6ab68864f131670a8bed8e47b09
-SHA256: 8c2f3c7ae29a50dfb5dcb01b164123f4e93dff20eb80240dcf651c3d35e5fee7
+Size: 1666106
+MD5sum: a270d044fb57346a2c7f84fd47a1d839
+SHA1: 79a09dc855cda3c79b5747cc716d35fba32f9202
+SHA256: 6f268e159d806b69701fdbec03640d8c8f182030e5624191a41497f9022e26f3

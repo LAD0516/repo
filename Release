@@ -7,16 +7,16 @@ Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 个人越狱插件源
 Icon: https://LAD0516.github.io/repo/avatar.png
-Date: Thu, 19 Nov 2026 10:45:04 UTC
+Date: Thu, 19 Nov 2026 15:10:47 UTC
 MD5Sum:
- 0999fa059a500df10b1fecb8041c40b1             9820 Packages
- 63d110fc45fb8aac717f7f6088052fea             3204 Packages.gz
- 9ccf8d922ba2bf268fefed2ef0f58f4f             3398 Packages.bz2
+ 37df0082e8fb3deea94468f5b56dc251            10071 Packages
+ 6fd923ab6d767f01584e699af1c70922             3181 Packages.gz
+ 86a8b1f73906987a4adac12a3beae19a             3433 Packages.bz2
 SHA1:
- 034257842a2174139809db077f87b80a84d43c65             9820 Packages
- c7d36fee768646edb3bc04e2b96e92e1c991ee2c             3204 Packages.gz
- 96f8ce2ecfcad054770c368705da5f78e55e18bb             3398 Packages.bz2
+ fb1cc843a04bf97bbc4f2304f8ec2bebec5d5d24            10071 Packages
+ 0fdf4a9dc79b01ed7d171edbb1c44024aa219d84             3181 Packages.gz
+ d38fda5afc2358f32067f5e92cabfbf5f0220980             3433 Packages.bz2
 SHA256:
- 9c495e56871086b8d8ed42d08b03166880e5e338703e74bbd2470ab0cd7b8cac             9820 Packages
- a0950704c0b0d8abcff0887304e970af6b41941808f04313a508596c76c151f5             3204 Packages.gz
- 1e7c086e82b1977c8a7634c29509ba2c4b88c8a9ae7d8fc474ab2275da29b539             3398 Packages.bz2
+ 76940024bb0c66a75f0641ff6fed27cc75d32b265658fae966718b4f32f01325            10071 Packages
+ 8cde95a459a0f85cb4b59643a4ee6f9e56b5c6b152c8ed8bb1e37d80028dc823             3181 Packages.gz
+ 30a6d9ed9fed088046d347fb0871b47f894967e4a358bb97c0a1248f316af5e9             3433 Packages.bz2
