@@ -134,10 +134,8 @@
     function copyUrl(){ copyText(REPO).then(()=>toast("已复制源地址 ✓")); }
 
     function addSource(mgr, label){
-      // 无论能否拉起 App，都先把源地址复制好（满足"自动复制源地址"）
       copyText(REPO).then(()=>{
         toast("已复制源地址，正在打开 " + label + " …");
-        // 尝试拉起对应包管理器的深链
         window.location.href = SCHEMES[mgr];
       }).catch(()=>{
         toast("复制失败，请长按上方地址手动复制");

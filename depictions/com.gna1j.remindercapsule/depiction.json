@@ -1,0 +1,66 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "tintColor": "#0A84FF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "介绍",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "ReminderCapsule 待办胶囊"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / Dopamine 越狱）。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "预览"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "screenshots": [
+            {
+              "url": "https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/screenshots/remindercapsule-1.jpg",
+              "accessibilityText": "ReminderCapsule 预览图 1"
+            },
+            {
+              "url": "https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/screenshots/remindercapsule-2.jpg",
+              "accessibilityText": "ReminderCapsule 预览图 2"
+            },
+            {
+              "url": "https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/screenshots/remindercapsule-3.jpg",
+              "accessibilityText": "ReminderCapsule 预览图 3"
+            }
+          ],
+          "itemCornerRadius": 12,
+          "itemSize": {
+            "x": 390,
+            "y": 844
+          }
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.0-64"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 增加网速悬浮显示\n- 优化部分功能",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

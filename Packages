@@ -142,13 +142,14 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
-Version: 1.0-61
-Installed-Size: 648
-Filename: debs/com.gna1j.remindercapsule_1.0-61_iphoneos-arm64.deb
-Size: 218696
-MD5sum: a9e09ec9bff64c631246292eca267aae
-SHA1: da19ad6ca7a0e5b73ba646d234b99cd95f6301f0
-SHA256: 53a9b8967b0010ac1f9f50b5ab206025be5ec0b11b0067ab4b187d9398461f66
+Version: 1.0-64
+Installed-Size: 704
+SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
+Filename: debs/com.gna1j.remindercapsule_1.0-64_iphoneos-arm64.deb
+Size: 234840
+MD5sum: 60ca0e9a1d1a2cac78ea70049e6073d0
+SHA1: c8c97ffb9ba566cd6aff094218194a2c2bc2bc38
+SHA256: 9b3029973fb84a555119121b0ab90e8652a73ecb06b716da54feefb23a9db515
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule 待办胶囊
@@ -158,13 +159,14 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
-Version: 1.0-61
-Installed-Size: 648
-Filename: debs/com.gna1j.remindercapsule_1.0-61_iphoneos-arm64e.deb
-Size: 219548
-MD5sum: 224bf94b2206dc6fe2a6770e9f805e04
-SHA1: e11b23c738fc72a1200b45414dbd76eb7ccd9871
-SHA256: 3318017e164072208840dcdd23f96b8da7fe8d187c16ff2f70da579ed092dc38
+Version: 1.0-64
+Installed-Size: 704
+SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
+Filename: debs/com.gna1j.remindercapsule_1.0-64_iphoneos-arm64e.deb
+Size: 235610
+MD5sum: 09355eb29046125d9e616146e12ce7ff
+SHA1: a8d5a15ee2c252e6338661faf2bc2f3ccbb5be4b
+SHA256: 1d5176e2cae774dcca04f2fc5b9b0693fa019e0cd0ae9d799111050ca5046ce0
 
 Package: com.gna1j.stepup
 Name: StepUp
