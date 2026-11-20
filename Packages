@@ -77,13 +77,13 @@ Author: mlgm
 Maintainer: GnA1J
 Architecture: iphoneos-arm64
 Version: 1.5.20
-Installed-Size: 1836
+Installed-Size: 1704
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/depiction.json
 Filename: debs/com.gna1j.pulloverx_1.5.20_iphoneos-arm64.deb
-Size: 571008
-MD5sum: dddabe2aa0ab99de8939cc405c0c9264
-SHA1: f2bc7bc0c705a4e5f01e3058b2a822e72e0227ca
-SHA256: a3019ab7e0855ba75039042133ff1388d7e4e8e790b5d4ae89f1fb1b0bdcde9b
+Size: 567998
+MD5sum: 7bb4168d6ecdba5895370e968d42c5fa
+SHA1: b6473a1c4312b6da4f94b6d7ade25e370eac9790
+SHA256: e03346dbef5652032d3f6eddac9046fad041abf0189c72eb8856f8cee26ad1b5
 
 Package: com.gna1j.pulloverx
 Name: PullOverX
@@ -96,13 +96,13 @@ Author: mlgm
 Maintainer: GnA1J
 Architecture: iphoneos-arm64e
 Version: 1.5.20
-Installed-Size: 1820
+Installed-Size: 1704
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.pulloverx/depiction.json
 Filename: debs/com.gna1j.pulloverx_1.5.20_iphoneos-arm64e.deb
-Size: 567848
-MD5sum: 3223e333846e1007f951ee147cf2d01d
-SHA1: 982359591b1f39adcb4d8304fccc95824294720d
-SHA256: f835a7e32c933d7e917320ad2ccc8e35417ffc9637c5df8db42dcd53a0a3594f
+Size: 567930
+MD5sum: 487f389904ee82df8d30828a8fca1010
+SHA1: 8cfac4696d5f8c57baa47a7212ad98f3b9a9069e
+SHA256: 5e876251671b1af9dd0d6590d23f735a94ec165babc6272a2693094db93dbdb7
 
 Package: com.gna1j.qxplus
 Name: QX Plus
@@ -221,10 +221,10 @@ Architecture: iphoneos-arm64
 Version: 0.2.73
 Installed-Size: 4708
 Filename: debs/com.gna1j.viewpurify_0.2.73_iphoneos-arm64.deb
-Size: 1666196
-MD5sum: 475a71819ffe5fee828f87f04050831d
-SHA1: 0f7480919434af1feeecab6fed9257446a73f802
-SHA256: 36070692878af40c50c314c519e05020ef4995a10f42bff5a0b47d4ece9c3518
+Size: 1666922
+MD5sum: 7f5ee7dcdf9e5e6fc7724cec995bbc94
+SHA1: 27b95e21cc50b3000ac9d44e407b5604581c9ba2
+SHA256: 77b460c783bc5e81321add11b961fb0b01dd3a2d7f05b0637dfbb2c4ff15decd
 
 Package: com.gna1j.viewpurify
 Name: ViewPurify  视图净化
@@ -239,7 +239,7 @@ Architecture: iphoneos-arm64e
 Version: 0.2.73
 Installed-Size: 4708
 Filename: debs/com.gna1j.viewpurify_0.2.73_iphoneos-arm64e.deb
-Size: 1666106
-MD5sum: a270d044fb57346a2c7f84fd47a1d839
-SHA1: 79a09dc855cda3c79b5747cc716d35fba32f9202
-SHA256: 6f268e159d806b69701fdbec03640d8c8f182030e5624191a41497f9022e26f3
+Size: 1666854
+MD5sum: 0c0e6f6fae634c78dccfcf582e654d39
+SHA1: 33637d1f870bd0f115c764b2632ca6378a4a7f14
+SHA256: afc63cd8a40e2252f096381d938edf740874243bedba3160ea3606a5e322d7b3
