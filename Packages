@@ -138,37 +138,37 @@ SHA256: 81e6dfa51e417fffb051e629d582f5ff79bef03f167ca1440ec44c41da601100
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule 待办胶囊
-Description: 在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / Dopamine 越狱）。
+Description: 在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / rootless 越狱）。
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
-Version: 1.0-64
-Installed-Size: 1408
+Version: 1.0-65
+Installed-Size: 1384
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
-Filename: debs/com.gna1j.remindercapsule_1.0-64_iphoneos-arm64.deb
-Size: 450400
-MD5sum: e194a43c4fd96fb3bc388115795c16e6
-SHA1: 398300240532815fc034af981eb57067ccd2424a
-SHA256: f9c42cb40f816043c4840b744f92339809a3c8861bf45ec4174423df1b562d09
+Filename: debs/com.gna1j.remindercapsule_1.0-65_iphoneos-arm64.deb
+Size: 480316
+MD5sum: 96ee3f212e61143af29fc4e51ac67ea0
+SHA1: 08d57584c746806d6db638ce94ae7c1887edb278
+SHA256: 10fe3a05ec839590f6f4cc08256bb36a9ea2520015650c81fe571c7d43563aab
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule 待办胶囊
-Description: 在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / Dopamine 越狱）。
+Description: 在屏幕上显示一个「提醒事项」待办胶囊，实时显示未完成数量；点开列表可快速标记完成。支持文字模板与字号、背景/文字颜色自定义、截图/录屏时隐藏、拖到任意位置。支持 iOS 15.0 – 17.x（roothide / rootless 越狱）。
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
-Version: 1.0-64
-Installed-Size: 1408
+Version: 1.0-65
+Installed-Size: 1384
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
-Filename: debs/com.gna1j.remindercapsule_1.0-64_iphoneos-arm64e.deb
-Size: 450290
-MD5sum: e0a82bc35d4bc269dc4c00ba65f752c2
-SHA1: 800fae038339a792fbea7a56730ca666b71f1203
-SHA256: f90b76ea6865ee09220a85211572c692ca7c0f0cd289209083bab0bbddbdf509
+Filename: debs/com.gna1j.remindercapsule_1.0-65_iphoneos-arm64e.deb
+Size: 480246
+MD5sum: e3c7fcb6e4e2d375222dfb408afc34db
+SHA1: 58754bddce6a8f16e85164cc2726f0f6f3e7021c
+SHA256: d123692e516bed5f8ad6c61d6976e44aa4a6081f9f5d411bb77df4fe55703df3
 
 Package: com.gna1j.stepup
 Name: StepUp
