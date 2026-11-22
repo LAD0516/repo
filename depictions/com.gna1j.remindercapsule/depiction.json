@@ -53,11 +53,11 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "1.0-65"
+          "title": "1.0-66"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 增加已完成待办显示\n- 优化部分功能和 UI",
+          "markdown": "- 增加已完成待办显示\n- 优化部分功能和 UI\n- 修复已知bug",
           "useSpacing": true
         },
         {
