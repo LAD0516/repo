@@ -7,13 +7,13 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64
-Version: 0.3.39
-Installed-Size: 516
-Filename: debs/com.gan1j.kspurify_0.3.39_iphoneos-arm64.deb
-Size: 160444
-MD5sum: 87c65a5216af9bf17da1b530d5d38f58
-SHA1: 4740cbd58a98430d96c39151e9bba873cc510dbc
-SHA256: 03fdf8594622ed4969d2d8683517f01836b36c972def192cedddb99107972858
+Version: 0.4.0
+Installed-Size: 484
+Filename: debs/com.gan1j.kspurify_0.4.0_iphoneos-arm64.deb
+Size: 161326
+MD5sum: a105752d450eff28458d3577013e9c07
+SHA1: ae2d2a0b08036f33620e82fc67f91500e0d7e379
+SHA256: e8c250c9e43dcce55c0fec4ef107e92a92bb97adbecd59c322d30938b25a6ae5
 
 Package: com.gan1j.kspurify
 Name: KS Purify
@@ -24,13 +24,13 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64e
-Version: 0.3.39
-Installed-Size: 516
-Filename: debs/com.gan1j.kspurify_0.3.39_iphoneos-arm64e.deb
-Size: 160370
-MD5sum: 238107c4a935b0d0978e4f04ca94bf3a
-SHA1: dfd071bd99ed18511332b184b0757aaaf2f904ad
-SHA256: 5bf7d17d43243107da8c0f3800bd087d8a5b781eb8674f78cebb3359c1fa858a
+Version: 0.4.0
+Installed-Size: 484
+Filename: debs/com.gan1j.kspurify_0.4.0_iphoneos-arm64e.deb
+Size: 161272
+MD5sum: 2a0753c0152428b6ebc59cd7b80df3d0
+SHA1: bbfcb3a6154e37c61559f439a2d71ee0f2643102
+SHA256: 43ed20c67ca5c7567f707abbea154b0113c606342d39bd0ac714aa13cbdca5fc
 
 Package: com.gna1j.appdataplus
 Name: AppData Extension
@@ -106,35 +106,35 @@ SHA256: 5e876251671b1af9dd0d6590d23f735a94ec165babc6272a2693094db93dbdb7
 
 Package: com.gna1j.qxplus
 Name: QX Plus
-Description: Quantumult X 增强插件：持久化数据新增/编辑、抓包数据 A/B 对比、时间分组查看
+Description: Quantumult X 增强插件：持久化数据新增/编辑/置顶（置顶标签条颜色可调，长按「+」打开设置）、抓包数据 A/B 对比、时间分组查看
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64
-Version: 0.5.8
-Installed-Size: 404
-Filename: debs/com.gna1j.qxplus_0.5.8_iphoneos-arm64.deb
-Size: 108100
-MD5sum: 48622c9b58b9c56823b1796f8267ff23
-SHA1: 4ceb39d7dc59f2e11fdc540935f59c39552ad042
-SHA256: 7fc88f154eedf70621c8997a32e853da563155fac8c45b14e800fb96c9746ca2
+Version: 0.5.18
+Installed-Size: 436
+Filename: debs/com.gna1j.qxplus_0.5.18_iphoneos-arm64.deb
+Size: 137838
+MD5sum: c1e6abc741fadbb62db17efe034beb5b
+SHA1: dc9b35f9e2e38b6937acbde0207ff4d7780f0263
+SHA256: 0e14b1d716ca7e1b2e5b2b61c393322c789305d3f25558118b2efd19dc8c0c26
 
 Package: com.gna1j.qxplus
 Name: QX Plus
-Description: Quantumult X 增强插件：持久化数据新增/编辑、抓包数据 A/B 对比、时间分组查看
+Description: Quantumult X 增强插件：持久化数据新增/编辑/置顶（置顶标签条颜色可调，长按「+」打开设置）、抓包数据 A/B 对比、时间分组查看
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Version: 0.5.8
-Installed-Size: 404
-Filename: debs/com.gna1j.qxplus_0.5.8_iphoneos-arm64e.deb
-Size: 108030
-MD5sum: 9c9d8c5df6dba73e5d8f52c9cc441656
-SHA1: 72e2b5a8df26d28f6305b87077679a1fb63b3b2c
-SHA256: 81e6dfa51e417fffb051e629d582f5ff79bef03f167ca1440ec44c41da601100
+Version: 0.5.18
+Installed-Size: 436
+Filename: debs/com.gna1j.qxplus_0.5.18_iphoneos-arm64e.deb
+Size: 137762
+MD5sum: 26895e1618440aa668944eb7eccd7662
+SHA1: bbdbc8bce95eaa3182293a8119190779d2d122cb
+SHA256: 177156271227bcc834b9246ebea1845136b88fcf366811370ff4a9e8d90cbcfb
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule 待办胶囊
@@ -144,14 +144,14 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
-Version: 1.0-66
-Installed-Size: 1384
+Version: 1.0-68
+Installed-Size: 1452
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
-Filename: debs/com.gna1j.remindercapsule_1.0-66_iphoneos-arm64.deb
-Size: 480376
-MD5sum: 57f7629ee44b47f22d2d233ff049161b
-SHA1: c60102633421fe4097b59eebc21d65f11716b9ba
-SHA256: 7e9c3fcd4bbf0f9f6f58d9a01632de8e5f20779d63e152167afb018f5cb00b35
+Filename: debs/com.gna1j.remindercapsule_1.0-68_iphoneos-arm64.deb
+Size: 495280
+MD5sum: 4cc403431ba4683feca8db601f2e6409
+SHA1: 86e5d4bee16ddbccc4d2b7b6103408d734468e78
+SHA256: ce6ac3ddb1d98b4e002233b07b0d82661df2fddd78e807dfd52234bf92222332
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule 待办胶囊
@@ -161,14 +161,14 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
-Version: 1.0-66
-Installed-Size: 1384
+Version: 1.0-68
+Installed-Size: 1452
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
-Filename: debs/com.gna1j.remindercapsule_1.0-66_iphoneos-arm64e.deb
-Size: 480286
-MD5sum: b7c6255a8cf06104fe004f7901e83cfe
-SHA1: 06fc4ddae6cec7a77cee77030fb8ffd5f4f10ebe
-SHA256: d6efd6139854e815d316e2cee61035752b6107491766d4444807a18b0b41a681
+Filename: debs/com.gna1j.remindercapsule_1.0-68_iphoneos-arm64e.deb
+Size: 495174
+MD5sum: 0e27a66b126d347824138311fe985f1e
+SHA1: f8957b48959bff353774250b2a12ee0f7d823094
+SHA256: 0f3efbf7adba5213c87e261d165eacbc7848453da9914f459dff30c569cd3f2d
 
 Package: com.gna1j.stepup
 Name: StepUp
@@ -218,13 +218,13 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64
-Version: 0.2.74
-Installed-Size: 4804
-Filename: debs/com.gna1j.viewpurify_0.2.74_iphoneos-arm64.deb
-Size: 1662976
-MD5sum: fb14282307ffd9eab4505e6442390a8f
-SHA1: ae16268c6b2f99799714d63c6df43aee4b794ade
-SHA256: c02d76cb0746147d7782380f6352785e16a8f986b74b49273ec1d2a71e5ce3c2
+Version: 0.2.75
+Installed-Size: 4820
+Filename: debs/com.gna1j.viewpurify_0.2.75_iphoneos-arm64.deb
+Size: 1664474
+MD5sum: b83deb7eb44af3051f2d3b0da33b929d
+SHA1: 941fbea1903ae6be429a15151d1a1cda6b1ac29e
+SHA256: ccc5a939198fe920023e22a072ed2cbed9252edc5b6f83299e3733b6479520c5
 
 Package: com.gna1j.viewpurify
 Name: ViewPurify  视图净化
@@ -236,10 +236,10 @@ Author: GnA1J
 Section: Tweaks
 Depends: firmware (>= 15.0), ellekit
 Architecture: iphoneos-arm64e
-Version: 0.2.74
-Installed-Size: 4804
-Filename: debs/com.gna1j.viewpurify_0.2.74_iphoneos-arm64e.deb
-Size: 1662888
-MD5sum: c3abec775ae49de4ec20d7ea774051ec
-SHA1: 1f8e31441f0e30abcd5f4ba99d9808858fd40730
-SHA256: 6099c96783efb44d9f3b59d75821fc458cbc3f17baf6ac1bff18d9162e2d2791
+Version: 0.2.75
+Installed-Size: 4820
+Filename: debs/com.gna1j.viewpurify_0.2.75_iphoneos-arm64e.deb
+Size: 1664416
+MD5sum: 2321ef1cbf030c0cc12ea1da3881e074
+SHA1: 8fdc8080d1cbc5b490dabcd53ba9546e9a02d713
+SHA256: 23e2bc3142243e4a09d44d9ccea0e44afe83560c63233348a395a56626219708
