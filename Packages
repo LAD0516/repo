@@ -41,13 +41,13 @@ Conflicts:
 Author: GnA1J
 Maintainer: GnA1J
 Architecture: iphoneos-arm64
-Version: 2.6.3
-Installed-Size: 1324
-Filename: debs/com.gna1j.appdataplus_2.6.3_iphoneos-arm64.deb
-Size: 577318
-MD5sum: 7a856ecfd6e1cb04c2047cd205bb645f
-SHA1: 648ac975514015c1d9195921d4a2ac50ceb54cd5
-SHA256: 1b6d1e3e7c468c97008ae860fb82de33549564268e9f5bfce1bd78870dad2df2
+Version: 2.6.4
+Installed-Size: 1244
+Filename: debs/com.gna1j.appdataplus_2.6.4_iphoneos-arm64.deb
+Size: 577960
+MD5sum: 02a97fc99737537384fc443822ab96e9
+SHA1: ba4697ce79f5af77c32001bb3a2dc875b6425c11
+SHA256: b1f2e55b4568ffc8ed966c043a930eb10111c117db10449a908c7ac5f5cfe3b6
 
 Package: com.gna1j.appdataplus
 Name: AppData Extension
@@ -58,13 +58,13 @@ Conflicts:
 Author: GnA1J
 Maintainer: GnA1J
 Architecture: iphoneos-arm64e
-Version: 2.6.3
-Installed-Size: 1324
-Filename: debs/com.gna1j.appdataplus_2.6.3_iphoneos-arm64e.deb
-Size: 577268
-MD5sum: 73a3e73b2cfdf3597522eea390fcf55b
-SHA1: 42e121eb107a95d4558a9ce4ba9a8fd77454c887
-SHA256: ce61ca6da508409efdadce266686038b0a4bb61f43cf4fd23f5106d8713addda
+Version: 2.6.4
+Installed-Size: 1244
+Filename: debs/com.gna1j.appdataplus_2.6.4_iphoneos-arm64e.deb
+Size: 577882
+MD5sum: fadf6a8b05191346e25bbdad298bc8ad
+SHA1: c8305342b7d3df33d59c4d36ee3493523960fd0d
+SHA256: f980494e95b54f0965a4a45d87819fc2367a77fcc4bf215507834a442d09cee1
 
 Package: com.gna1j.pulloverx
 Name: PullOverX
