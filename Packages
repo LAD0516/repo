@@ -106,35 +106,35 @@ SHA256: 5e876251671b1af9dd0d6590d23f735a94ec165babc6272a2693094db93dbdb7
 
 Package: com.gna1j.qxplus
 Name: QX Plus
-Description: Quantumult X 增强插件：持久化数据新增/编辑/置顶（置顶标签条颜色可调，长按「+」打开设置）、抓包数据 A/B 对比、时间分组查看
+Description: Quantumult X 增强插件 - 持久化数据增加 新增/编辑/禁用/置顶功能，抓包数据 A/B 对比、时间分组查看。
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64
-Version: 0.5.18
-Installed-Size: 436
-Filename: debs/com.gna1j.qxplus_0.5.18_iphoneos-arm64.deb
-Size: 137838
-MD5sum: c1e6abc741fadbb62db17efe034beb5b
-SHA1: dc9b35f9e2e38b6937acbde0207ff4d7780f0263
-SHA256: 0e14b1d716ca7e1b2e5b2b61c393322c789305d3f25558118b2efd19dc8c0c26
+Version: 0.5.48
+Installed-Size: 632
+Filename: debs/com.gna1j.qxplus_0.5.48_iphoneos-arm64.deb
+Size: 209056
+MD5sum: afc589563208b57501792cae44d6d14a
+SHA1: 205afb09aafb2c056ece04ce8a20aad06993d289
+SHA256: e2b04a376a08d5ffb8d83d4f174322bf458fe0f69ccc56a6acf9b051fafce3f7
 
 Package: com.gna1j.qxplus
 Name: QX Plus
-Description: Quantumult X 增强插件：持久化数据新增/编辑/置顶（置顶标签条颜色可调，长按「+」打开设置）、抓包数据 A/B 对比、时间分组查看
+Description: Quantumult X 增强插件 - 持久化数据增加 新增/编辑/禁用/置顶功能，抓包数据 A/B 对比、时间分组查看。
 Maintainer: GnA1J
 Author: GnA1J
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64e
-Version: 0.5.18
-Installed-Size: 436
-Filename: debs/com.gna1j.qxplus_0.5.18_iphoneos-arm64e.deb
-Size: 137762
-MD5sum: 26895e1618440aa668944eb7eccd7662
-SHA1: bbdbc8bce95eaa3182293a8119190779d2d122cb
-SHA256: 177156271227bcc834b9246ebea1845136b88fcf366811370ff4a9e8d90cbcfb
+Version: 0.5.48
+Installed-Size: 632
+Filename: debs/com.gna1j.qxplus_0.5.48_iphoneos-arm64e.deb
+Size: 208994
+MD5sum: 7561d1ef088a70ce24d8006185efa842
+SHA1: 34f224fdeb55d012de6edd29a5746d05ccbdad85
+SHA256: 16cc9ffb4d01b1e6178776f38200c0b036cac2a335b412f58bf0a7de26e3b24e
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule 待办胶囊
@@ -148,10 +148,10 @@ Version: 1.0-68
 Installed-Size: 1452
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
 Filename: debs/com.gna1j.remindercapsule_1.0-68_iphoneos-arm64.deb
-Size: 495280
-MD5sum: 4cc403431ba4683feca8db601f2e6409
-SHA1: 86e5d4bee16ddbccc4d2b7b6103408d734468e78
-SHA256: ce6ac3ddb1d98b4e002233b07b0d82661df2fddd78e807dfd52234bf92222332
+Size: 495352
+MD5sum: 141efe4cc9172e8f8ac20301b372c737
+SHA1: 24b7bb9ceecc15518e68ac56e48a8ff1d03b8109
+SHA256: 1e33ce3c6b911af8486a2a3e6fdfcabb693367a16ad55950751fb09c0d827088
 
 Package: com.gna1j.remindercapsule
 Name: ReminderCapsule 待办胶囊
@@ -165,10 +165,10 @@ Version: 1.0-68
 Installed-Size: 1452
 SileoDepiction: https://LAD0516.github.io/repo/depictions/com.gna1j.remindercapsule/depiction.json
 Filename: debs/com.gna1j.remindercapsule_1.0-68_iphoneos-arm64e.deb
-Size: 495174
-MD5sum: 0e27a66b126d347824138311fe985f1e
-SHA1: f8957b48959bff353774250b2a12ee0f7d823094
-SHA256: 0f3efbf7adba5213c87e261d165eacbc7848453da9914f459dff30c569cd3f2d
+Size: 495234
+MD5sum: 22518d8db56cd9b5a706c6cfc555c128
+SHA1: 7a4b4f726bdbbb81b588f4912286c5b7ac04206a
+SHA256: c30692221ca19e75a6b216e5443bec96aa43570a4e02473986da1979d053db73
 
 Package: com.gna1j.stepup
 Name: StepUp
